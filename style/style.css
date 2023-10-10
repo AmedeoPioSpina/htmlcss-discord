@@ -64,13 +64,19 @@ body, button{
 }
 
 .column-big{
-    background-color: #1e8ffe;
+    /* background-color: #1e8ffe; */
+    display: flex;
+    justify-content: center;
     width: 60%;
 }
 
 .column-small{
-    background-color: #febfca;
+    /* background-color: #febfca; */
     width: 40%;
+}
+
+.column-small p {
+    font-size: 1.21rem;
 }
 
 .column-single{
@@ -137,8 +143,15 @@ h1 {
     margin-bottom: 2rem
 }
 
+h2 {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
 header {
-    background-color: rgb(49, 97, 224);
+    background: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
 }
 
 /* header section.navigation > div{
